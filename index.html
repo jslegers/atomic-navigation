@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link rel="stylesheet" href="styles.css">
+        <!--[if lt IE 9]><link rel="stylesheet" href="ielt9.css"><![endif]-->
+        <!--[if lt IE 8]><link rel="stylesheet" href="ielt8.css"><![endif]-->
+        <!--[if lt IE 7]><link rel="stylesheet" href="ielt7.css"><![endif]-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            .example_box_set {
+                width: 50%;
+                min-width: 450px;
+                float: left;
+                margin: 0 auto;
+            }
+
+            .example_box, .example_title, .example_text  {
+                padding: 20px;
+                margin: 20px;
+                border-width: 2px;
+                background: #fff;
+            }
+
+            .example_text, .example_title {
+                background: none;
+            }
+
+            .example_text {
+                margin: 0 auto;
+                border-width: 0;
+            }
+
+            .example_title {
+                border-width: 0 0 2px 0;
+            }
+
+            @media screen and (max-width: 900px) {
+                .example_box_set, .example_title, .example_text  {
+                    float: none;
+                }
+            }
+
+            @media screen and (max-width: 450px) {
+
+                .example_box_set {
+                    min-width: 0;
+                    width: 100%;
+                }
+
+                .example_box, .example_title {
+                    padding: 30px 10px;
+                    margin: 0;
+                    border-width: 1px 0;
+                    border-color: #999;
+                }
+
+                .example_title {
+                    background: #666;
+                    color: #fff;
+                }
+
+                h2 {
+                    font-size: 110%;
+                    line-height: 110%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="example_title">
+            <h1>Atomic navigation</h1>
+        </div>
+        <div class="example_text">
+            <p>
+                This demo contains several navigation examples based upon a generic navigation component.
+            </p>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Generic navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div>
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div>
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Menu navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="menu">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="menu">
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Bordered menu navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="bordered menu">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="bordered menu">
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Gradient menu navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="bordered menu">
+                        <ul class="gradient nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="bordered menu">
+                        <ul class="left gradient nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Flat navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="flat">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="flat">
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Bordered flat navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="bordered">
+                        <div class="flat">
+                            <ul class="nav">
+                                <li class="active"><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                                <li><a href="#">Item 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="bordered">
+                        <div class="flat">
+                            <ul class="left nav">
+                                <li class="active"><a href="#">Item 1</a></li>
+                                <li><a href="#">Item 2</a></li>
+                                <li><a href="#">Item 3</a></li>
+                                <li><a href="#">Item 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Underline navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="underline">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="underline">
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Menu navigation - show on hover</h2>
+                </div>
+                <div class="example_box">
+                    <div class="menu show-on-hover">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="example_box">
+                    <div class="menu show-on-hover">
+                        <ul class="left nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Flat navigation bar</h2>
+                </div>
+                <div class="example_box">
+                    <div class="flat">
+                        <ul class="nav bar">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Tag navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="tag">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Circular flat navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="flat">
+                        <ul class="nav circular">
+                            <li class="active"><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="example_box_set">
+                <div class="example_title">
+                    <h2>Foldout navigation</h2>
+                </div>
+                <div class="example_box">
+                    <div class="flat">
+                        <ul class="foldout nav">
+                            <li class="red"><span><a href="#"><span>Item </span>1</a></span></li>
+                            <li class="orange"><span><a href="#"><span>Item </span>2</a></span></li>
+                            <li class="yellow"><span><a href="#"><span>Item </span>3</a></span></li>
+                            <li class="green"><span><a href="#"><span>Item </span>4</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="example_text">
+            <h2>Browser support</h2>
+            <p>
+                These demos are supported by all browsers, including IE6+.
+            </p>
+        </div>
+        <div class="example_text">
+            &#169; 2013, <a href="https://twitter.com/johnslegers">John Slegers</a>
+        </div>
+    </body>
+</html>

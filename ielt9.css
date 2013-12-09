@@ -1,0 +1,23 @@
+.show-on-hover a {
+    visibility: hidden;
+}
+
+.show-on-hover:hover a {
+    visibility: visible;
+}
+
+.show-on-hover .nav {
+    border-color: #fff;
+}
+
+.show-on-hover:hover .nav {
+    border-color: #333;
+}
+
+.bordered .gradient a {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2eebf1f6', endColorstr='#82d5ebfb',GradientType=0 ); /* IE6-8 */
+}
+
+.bordered .gradient .active a, .bordered .gradient a:hover {
+    filter:alpha(opacity=80); /* For IE8 and earlier */
+}

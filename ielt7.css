@@ -1,0 +1,11 @@
+.underline a {
+    display: inline;
+}
+
+.show-on-hover a {
+    visibility: visible;
+}
+
+.show-on-hover .nav {
+    border-color: #333;
+}
