@@ -12,7 +12,7 @@ For a live demo, go to [http://jslegers.github.io/atomic-navigation](http://jsle
 
 This code is MIT licensed.
 
- Copyright (c) 2011 John Slegers
+ Copyright (c) 2013 John Slegers
 
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
