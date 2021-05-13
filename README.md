@@ -1,16 +1,14 @@
-[![endorse](https://api.coderwall.com/johnslegers/endorsecount.png)](https://coderwall.com/johnslegers)
-
 Atomic navigation
 =================
 
 Navigation components, implemented using the "atomic CSS" design pattern
 
 
-##Demo
+## Demo
 
 For a live demo, go to [http://jslegers.github.io/atomic-navigation](http://jslegers.github.io/atomic-navigation).
 
-##License
+## License
 
 This code is MIT licensed.
 
